@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px; 
+}
+.card-area-start{
+    background-color: aqua;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:20px;
+}
+
+.box img{
+    width: 350px;
+    height: 400px;
+}
+
+@media screen and (max-width: 1024px) {
+    .card{
+        gard-template-columns: repeat(3, 1fr)
+    }
+
+    
+
+}
+
+@media screen and (max-width: 412px) {
+    .card{
+        gard-template-columns: repeat(2, 1fr)
+    }
+    
+}
